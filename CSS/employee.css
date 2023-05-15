@@ -1,0 +1,16 @@
+#tag1,
+#tag2,
+#display1,
+#display2 {
+  display: none;
+}
+
+.main-header,
+.main-footer {
+  background-color: gray;
+  color: white;
+}
+
+.main-sidebar {
+  background-color: black;
+}

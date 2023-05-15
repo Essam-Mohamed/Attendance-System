@@ -1,0 +1,407 @@
+{
+  "admin": [
+    {
+      "fName": "Essam",
+      "lName": "Mohamed",
+      "userName": "essammohamed1234",
+      "password": "essam123456",
+      "address": "egypt/zefta-25",
+      "email": "essam@hotmail.com",
+      "age": "25",
+      "id": 1
+    }
+  ],
+  "employees": [
+    {
+      "fName": "Ahmed",
+      "lName": "Waild",
+      "address": "cairo/abas-25",
+      "email": "Ahmed@yahoo.com",
+      "age": "25",
+      "id": 1,
+      "userName": "AhmedWaild2078",
+      "password": 580602736,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": false,
+          "arrivalTime": "5:58:23 PM",
+          "late": "28 minutes: 23 seconsd",
+          "depatureTime": "5:58:29 PM"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:51:05 PM",
+          "late": "21 minutes: 05 seconsd",
+          "depatureTime": "5:51:18 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:48:36 PM",
+          "late": 0,
+          "depatureTime": "5:48:48 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-02-24",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    },
+    {
+      "fName": "Khaled",
+      "lName": "Ezzat",
+      "address": "Alex/elgish-25",
+      "email": "Khaled@yahoo.com",
+      "age": "28",
+      "id": 2,
+      "userName": "KhaledEzzat3230",
+      "password": 750934978,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:49:33 PM",
+          "late": 0,
+          "depatureTime": "5:50:46 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": false,
+          "arrivalTime": "5:51:05 PM",
+          "late": "21 minutes: 05 seconsd",
+          "depatureTime": "5:51:18 PM"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": false,
+          "arrivalTime": "5:51:37 PM",
+          "late": "21 minutes: 37 seconsd",
+          "depatureTime": "5:51:49 PM"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:58:23 PM",
+          "late": "28 minutes: 23 seconsd",
+          "depatureTime": "5:58:29 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": false,
+          "arrivalTime": "6:29:30 PM",
+          "late": 0,
+          "depatureTime": "6:29:32 PM"
+        },
+        {
+          "date": "2023-02-24",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    },
+    {
+      "fName": "Ezzat",
+      "lName": "Nagy",
+      "address": "Cairo/abas-25",
+      "email": "Ezzat@yahoo.com",
+      "age": "29",
+      "id": 3,
+      "userName": "EzzatNagy1982",
+      "password": 515399009,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": false,
+          "arrivalTime": "5:54:43 PM",
+          "late": "24 minutes: 43 seconsd",
+          "depatureTime": "5:54:55 PM"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:54:43 PM",
+          "late": "24 minutes: 43 seconsd",
+          "depatureTime": "5:54:55 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": false,
+          "arrivalTime": "5:53:48 PM",
+          "late": "23 minutes: 48 seconsd",
+          "depatureTime": "5:53:52 PM"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:54:43 PM",
+          "late": "24 minutes: 43 seconsd",
+          "depatureTime": "5:54:55 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        },
+        {
+          "date": "2023-02-24",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    },
+    {
+      "fName": "Mohamed",
+      "lName": "Mohamed",
+      "address": "Cairo/Elsalam-25",
+      "email": "Mohamed@yahoo.com",
+      "age": "25",
+      "id": 4,
+      "userName": "MohamedMohamed3750",
+      "password": 109539125,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": false,
+          "arrivalTime": "5:53:48 PM",
+          "late": "23 minutes: 48 seconsd",
+          "depatureTime": "5:53:52 PM"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:54:43 PM",
+          "late": "24 minutes: 43 seconsd",
+          "depatureTime": "5:54:55 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": false,
+          "arrivalTime": "5:57:10 PM",
+          "late": "27 minutes: 10 seconsd",
+          "depatureTime": "5:57:21 PM"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": false,
+          "arrivalTime": "5:55:02 PM",
+          "late": "25 minutes: 02 seconsd",
+          "depatureTime": "5:55:40 PM"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:55:48 PM",
+          "late": "25 minutes: 48 seconsd",
+          "depatureTime": "5:55:53 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": false,
+          "arrivalTime": "6:20:03 PM",
+          "late": 0,
+          "depatureTime": "6:21:56 PM"
+        }
+      ]
+    },
+    {
+      "fName": "Ahmed",
+      "lName": "Mohamed",
+      "address": "cairo/abas-25",
+      "email": "ahmedmohamed22@yahoo.com",
+      "age": "25",
+      "id": 5,
+      "userName": "AhmedMohamed2052",
+      "password": 59212000,
+      "startDate": "2023-02-24",
+      "attendance": [
+        {
+          "date": "2023-02-24",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    }
+  ],
+  "pendingEmployees": [
+    {
+      "fName": "Omar",
+      "lName": "Yousef",
+      "address": "Tanta/Elbahr-36",
+      "email": "omar@yahoo.com",
+      "age": "38",
+      "id": 7
+    },
+    {
+      "fName": "essam",
+      "lName": "ahmed",
+      "address": "egypt/zefta-25",
+      "email": "essam@yahoo.com",
+      "age": "25",
+      "id": 8
+    }
+  ],
+  "security": [
+    {
+      "fName": "Mahmoud",
+      "lName": "Ahmed",
+      "address": "Badr/Masaken-25",
+      "email": "Mahmoud@yahoo.com",
+      "age": "40",
+      "id": 2,
+      "userName": "MahmoudAhmed3421",
+      "password": 718151312,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": false,
+          "arrivalTime": "5:58:23 PM",
+          "late": "28 minutes: 23 seconsd",
+          "depatureTime": "5:58:29 PM"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:55:02 PM",
+          "late": "25 minutes: 02 seconsd",
+          "depatureTime": "5:55:40 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": false,
+          "arrivalTime": "5:57:10 PM",
+          "late": "27 minutes: 10 seconsd",
+          "depatureTime": "5:57:21 PM"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": false,
+          "arrivalTime": "5:57:44 PM",
+          "late": "27 minutes: 44 seconsd",
+          "depatureTime": "5:57:54 PM"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:58:06 PM",
+          "late": "28 minutes: 06 seconsd",
+          "depatureTime": "5:58:13 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    },
+    {
+      "fName": "Assem",
+      "lName": "Mohamed",
+      "address": "monofia/eldish-25",
+      "email": "Assem@yahoo.com",
+      "age": "40",
+      "id": 3,
+      "userName": "AssemMohamed3187",
+      "password": 635856892,
+      "startDate": "2023-01-20",
+      "attendance": [
+        {
+          "date": "2023-01-20",
+          "absent": false,
+          "arrivalTime": "5:57:44 PM",
+          "late": "27 minutes: 44 seconsd",
+          "depatureTime": "5:57:54 PM"
+        },
+        {
+          "date": "2023-01-21",
+          "absent": false,
+          "arrivalTime": "5:55:48 PM",
+          "late": "25 minutes: 48 seconsd",
+          "depatureTime": "5:55:53 PM"
+        },
+        {
+          "date": "2023-01-22",
+          "absent": false,
+          "arrivalTime": "5:54:43 PM",
+          "late": "24 minutes: 43 seconsd",
+          "depatureTime": "5:54:55 PM"
+        },
+        {
+          "date": "2023-01-23",
+          "absent": false,
+          "arrivalTime": "5:49:33 PM",
+          "late": 0,
+          "depatureTime": "5:50:46 PM"
+        },
+        {
+          "date": "2023-01-24",
+          "absent": false,
+          "arrivalTime": "5:58:23 PM",
+          "late": "28 minutes: 23 seconsd",
+          "depatureTime": "5:58:29 PM"
+        },
+        {
+          "date": "2023-01-25",
+          "absent": true,
+          "arrivalTime": "---",
+          "late": "---",
+          "depatureTime": "---"
+        }
+      ]
+    }
+  ]
+}

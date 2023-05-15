@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/Register.css" />
+    <script src="../JS/Register.js" type="module" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Register</title>
+  </head>
+  <body class="position-relative">
+    <nav class="navbar navbar-expand justify-content-between px-3 py-2 h-25 h6 my-0">
+      <img src="../Images/logo1.png" class="col-1" alt="logo" />
+      <section class="d-flex col-md-8 col-11 justify-content-around">
+        <a href="../Home.html" class="text-decoration-none">Home</a>
+        <a href="Register.html" class="text-decoration-none">Registration</a>
+        <a href="About.html" class="text-decoration-none">About</a>
+        <a href="Logn.html" class="text-decoration-none">Login</a>
+      </section>
+      <section class="d-flex justify-content-between d-md-block d-none text-decoration-none">
+        <a href="../HTML/Register.html" class="text-decoration-none">
+          <input type="button" value="Register" class="btn btn-primary col-6" />
+        </a>
+        <a href="../HTML/Logn.html" class="text-decoration-none">
+          <input type="button" value="Login" class="btn btn-primary" />
+        </a>
+      </section>
+    </nav>
+    <section class="text-light mainwraper d-flex align-items-center justify-content-center">
+      <article class="col-12">
+        <form
+          action=""
+          class="col-10 col-8-sm col-md-6 col-lg-4 offset-1 offset-2-sm offset-md-3 offset-lg-4 needs-validated formwraper"
+          novalidate>
+          <p class="text-center h4 mb-4">Register</p>
+          <div class="row mb-3">
+            <label for="firstName" class="col-form-label col-4-sm col-5">First Name</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="text"
+                name="firstName"
+                class="form-control"
+                pattern="^([a-zA-Z]){4,10}$"
+                required
+                id="fName" />
+              <div class="invalid-feedback">Enter alphapet (4 - 10) char</div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="lastName" class="col-form-label col-4-sm col-5">Last Name</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="text"
+                name="lastName"
+                class="form-control"
+                pattern="^([a-zA-Z]){4,10}$"
+                required
+                id="lName" />
+              <div class="invalid-feedback">Enter alphapet (4 - 10) char</div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="address" class="col-form-label col-4-sm col-5">Address</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="text"
+                name="address"
+                class="form-control"
+                pattern="^([a-zA-Z]){4,8}([/])([a-zA-Z]){4,8}-([0-9]){1,4}$"
+                required
+                id="address" />
+              <div class="invalid-feedback">Enter valid address (city/street-number)</div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="mail" class="col-form-label col-4-sm col-5">Email</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="mail"
+                name="Email"
+                class="form-control"
+                pattern="^([a-zA-Z]){4,20}([0-9]{0,5})([@])([a-z]){5,7}.com$"
+                required
+                id="mail" />
+              <div class="invalid-feedback">Enter valid Email (example@example.com)</div>
+              <div class="invalid-feedback" id="invalid">Email already exist</div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <label for="age" class="col-form-label col-4-sm col-5">Age</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="text"
+                name="age"
+                class="form-control"
+                pattern="^(1[89]|[2-5][0-9]|6[0])$"
+                required
+                id="age" />
+              <div class="invalid-feedback">Enter age between (18 to 60)</div>
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-primary" id="register" />
+            <div class="valid-feedback" id="valid">Successful Registraion</div>
+          </div>
+        </form>
+      </article>
+    </section>
+    <footer class="col-12 h6 text-light m-0">
+      <div
+        class="d-flex flex-md-row justify-content-md-around align-items-md-center flex-column align-items-center py-3">
+        <p class="mb-md-0">&copy; All copyright reserved for Essam</p>
+        <div>
+          <p class="text-center">Follow Us</p>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook icons px-2"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter icons px-2"></i></a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube icons px-2"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

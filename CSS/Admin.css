@@ -1,0 +1,23 @@
+#tag1,
+#tag2,
+#tag3,
+#tag4,
+#display1,
+#display2,
+#display3 {
+  display: none;
+}
+
+.textColor {
+  color: black;
+}
+
+.main-header,
+.main-footer {
+  background-color: gray;
+  color: white;
+}
+
+.main-sidebar {
+  background-color: black;
+}

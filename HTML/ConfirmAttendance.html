@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/ConfirmAttendance.css" />
+    <script src="../JS/ConfirmAttendance.js" type="module" defer></script>
+    <title>Confirm Attendance</title>
+  </head>
+  <body id="body">
+    <section class="text-light mainwraper d-flex align-items-center justify-content-center">
+      <article class="col-12 articlewraper">
+        <form
+          action=""
+          class="col-10 col-8-sm col-md-6 col-lg-4 offset-1 offset-2-sm offset-md-3 offset-lg-4 needs-validated formwraper"
+          novalidate>
+          <p class="text-center h4 mb-4">Confirm Attendance</p>
+          <div class="row mb-3">
+            <label for="userName" class="col-form-label col-4-sm col-5">User Name</label>
+            <div class="col-8-sm col-7">
+              <input
+                type="text"
+                name="userName"
+                class="form-control"
+                pattern="^([a-zA-Z]){8,16}([0-9]){4}"
+                required
+                id="userName" />
+              <div class="invalid-feedback">Enter Alphapet (8 - 16) and 4 numbers at end</div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="px-2">
+              <select id="select" class="col-form-label">
+                <option value="employees">employees</option>
+                <option value="security">security</option>
+              </select>
+            </div>
+            <div class="px-2">
+              <button class="btn btn-primary" id="butnSec">Your Attendance</button>
+            </div>
+            <div class="px-2">
+              <input type="button" value="Confirm" class="btn btn-primary" id="button" />
+            </div>
+          </div>
+          <div class="invalid-feedback text-center" id="invalid">Invalid user name.</div>
+        </form>
+      </article>
+    </section>
+  </body>
+</html>
